@@ -8,6 +8,7 @@ namespace CommentForm.Models
 {
     public class CommentFormModel
     {
+        //Our ID keeps track of each instance
         [Key]
         public int ID { get; set; }
         public string Name { get; set; }
